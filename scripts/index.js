@@ -1,3 +1,4 @@
+// Timestamp Update
 function updateTimestamp() {
   const timestampElement = document.getElementById("timestamp");
   if (timestampElement) {
