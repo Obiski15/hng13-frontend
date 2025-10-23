@@ -4,11 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
     <script src="./scripts/index.js" defer></script>
+    <script src="./scripts/nav.js" defer></script>
   </head>
   <body>
-    <article class="profile-card" data-testid="test-profile-card">
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul class="nav-list">
+        <li>
+          <a href="./index.html" class="nav-link" data-page="home">Home</a>
+        </li>
+        <li>
+          <a href="./contact.html" class="nav-link" data-page="contact"
+            >Contact Us</a
+          >
+        </li>
+        <li>
+          <a href="./about.html" class="nav-link" data-page="about"
+            >About Me</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <article id="home" class="profile-card" data-testid="test-profile-card">
       <div class="card-content">
         <header class="card-header">
           <figure class="avatar-container">
